@@ -15,7 +15,7 @@ The project incoporates pandas, streamlit, and plotly.express libraries for anal
 # Application use instructions
 The application opens to a page with several visualizations. There is a scatterplot of 'model_year' and 'price', there is a histogram of 'days_listed' (i.e, the duration of the car listing in the advertisment dataset), and a table with a sample of rows from the dataset.
 
-The entire dataset included in all 3 visualizations by default. 
+The entire dataset included in all 3 visualizations by default (except for car models from earlier than 1960). 
 
 The user can then filter the dataset by 'model_year' using a 'slider', this will affect all the visualizations.
 The user can also filter the dataset by 'price' with a checkbox, which retains all cars with a price below 50,000 USD. This will also affect all the visualizations.
