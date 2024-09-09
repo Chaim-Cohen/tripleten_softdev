@@ -64,8 +64,8 @@ st.caption(':blue[Select your preferences here]')
 
 # create slider to filter the dataset by model_year
 model_year_range = st.slider(
-    "Select model year range",
-    value= (1908, 2019))
+    "Select the year range",
+    min_value=1960, max_value=2020, value= (1960, 2020))
 
 # create list of selected model_year range values
 actual_model_year = list(range(model_year_range[0],model_year_range[1]+1))
