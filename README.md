@@ -2,7 +2,7 @@
 
 ## Links
 Link to GitHub repository: https://github.com/Chaim-Cohen/tripleten_softdev
-URL of app on Render: https://https://tripleten-softdev.onrender.com
+URL of app on Render: https://tripleten-softdev.onrender.com
 
 # Project Description
 
